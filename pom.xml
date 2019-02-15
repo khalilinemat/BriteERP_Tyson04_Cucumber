@@ -51,6 +51,8 @@
 
                     <includes>
                         <include>**/*CukesRunner.java</include>
+                        <include>**/*FailRunner.java</include>
+
                     </includes>
                 </configuration>
             </plugin>
