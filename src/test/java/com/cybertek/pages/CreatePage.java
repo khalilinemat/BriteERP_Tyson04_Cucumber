@@ -139,6 +139,8 @@ public class CreatePage {
     @FindBy(xpath = "(//span[@class='oe_menu_text'])[6]")
     public WebElement manufacture;
 
+    //
+
     public void toOdoo(){
         ManufacturingManager5.click();
         MyOdooAccount.click();
