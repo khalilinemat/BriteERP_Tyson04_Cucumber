@@ -32,7 +32,7 @@ public class Hooks {
         }
 
         System.out.println("Closing driver");
-        Driver.closeDriver();
+        //Driver.closeDriver();
     }
 
     @Before(value = "@teacher", order = 11)
