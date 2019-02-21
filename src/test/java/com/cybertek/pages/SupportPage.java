@@ -5,12 +5,8 @@ import com.cybertek.utilities.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class SupportPage {
+public class SupportPage extends ManufactureNavMenue{
 
-    public SupportPage(){
-
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
 
     //Locators go here below

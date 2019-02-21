@@ -10,12 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class MyOddoPage {
+public class MyOddoPage extends ManufactureNavMenue {
 
-    public MyOddoPage(){
-
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     @FindBy(xpath = "(//a[@class='list-group-item'])[2]")
     public WebElement Database;

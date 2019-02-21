@@ -7,11 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class PreferencePage {
-
-     public PreferencePage() {
-            PageFactory.initElements(Driver.getDriver(), this);
-        }
+public class PreferencePage extends ManufactureNavMenue {
 
         @FindBy(xpath = "(//span[@class='oe_menu_text'])[6]")
         public WebElement ManufactLink;
