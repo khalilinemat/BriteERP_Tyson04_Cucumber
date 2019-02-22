@@ -3,12 +3,11 @@ package com.cybertek.pages;
 import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class ManufactureNavMenue {
+public abstract class ManufactureNavMenue {
 
 
     public ManufactureNavMenue(){
