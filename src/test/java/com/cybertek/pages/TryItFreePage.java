@@ -5,12 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class TryItFreePage {
+public class TryItFreePage extends ManufactureNavMenue{
 
-    public TryItFreePage(){
-
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     @FindBy(xpath = "//div//a[@class='btn btn-primary']")
     public WebElement TryItFreeButton;
@@ -71,8 +67,6 @@ public class TryItFreePage {
 
     @FindBy(xpath = "//div[@class='alert alert-warning']")
     public WebElement activationMessage;
-
-
 
 
 

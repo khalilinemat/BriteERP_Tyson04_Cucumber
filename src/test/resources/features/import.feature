@@ -1,7 +1,7 @@
 Feature:
 
 
-
+  @import
     Scenario: verify the url contains Brite
 
       Given manager is on home page

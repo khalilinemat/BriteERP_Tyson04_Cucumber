@@ -4,17 +4,12 @@ import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class CreatePage {
 
-    public CreatePage(){
-
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
+public class CreatePage extends ManufactureNavMenue {
 
     @FindBy(xpath = "(//a[@class='list-group-item'])[2]")
     public WebElement Database;
